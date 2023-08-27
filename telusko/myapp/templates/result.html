@@ -1,0 +1,78 @@
+{% csrf_token %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+</head>
+<body>
+    <h2>Result</h2>
+    <p>The result is: {{ result }}</p>
+    <a href="{% url 'myapp:myapp' %}">Go back to calculator</a>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} {% extends 'base.html' %} {% endcomment %}
+
+{% comment %} {% csrf_token %}
+{% block content %}
+
+Result : {{result}}
+
+
+{% endblock %}
+
+<body bgcolor = "cyan"> 
+
+
+
+</body> {% endcomment %}
